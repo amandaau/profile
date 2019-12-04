@@ -1,0 +1,168 @@
+<!-- Amanda Ky Au © 2019 Copyright-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Contact</title>
+
+    <link rel="shortcut icon" href="images/Amanda_Icon.png" />
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="contact.css" />
+    <link
+      rel="stylesheet"
+      href="//use.fontawesome.com/releases/v5.0.7/css/all.css"
+    />
+    <link rel="stylesheet" href="fontawesome.min.css" />
+    <link rel="stylesheet" href="all.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <script src="contact.js"></script>
+
+    <!-- Nav -->
+
+    <nav
+      class="navbar navbar-expand-sm navbar-light bg-light"
+      data-toggle="affix"
+    >
+      <div class="mx-auto d-sm-flex d-block flex-sm-nowrap">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarsExample11"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse text-center" id="navbarsExample11">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="project.html">projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- End of Nav -->
+
+    <!-- Contact -->
+
+    <div id="contact">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-5 col-md-offset-3">
+            <div class="well well-sm">
+              <form method="post" action="mailto:amandagomu@gmail.com">
+                <fieldset>
+                  <h4
+                    class="text-center font weight-bold "
+                    style="padding-top:50px; padding-bottom:30px; color: white;"
+                  >
+                    Leave a message
+                  </h4>
+
+                  <!-- Name input-->
+                  <div class="form-group">
+                    <label
+                      class="col-md-12 control-label"
+                      for="name"
+                      style="color: white;"
+                      >Name</label
+                    >
+                    <div class="col-md-12">
+                      <input
+                        id="name"
+                        name="name"
+                        type="text"
+                        placeholder="Your name"
+                        class="form-control"
+                      />
+                    </div>
+                  </div>
+
+                  <!-- Email input-->
+                  <div class="form-group">
+                    <label
+                      class="col-md-12 control-label"
+                      for="email"
+                      style="color: white;"
+                      >Your E-mail</label
+                    >
+                    <div class="col-md-12">
+                      <input
+                        id="email"
+                        name="email"
+                        type="text"
+                        placeholder="Your email"
+                        class="form-control"
+                      />
+                    </div>
+                  </div>
+
+                  <!-- Message body -->
+                  <div class="form-group">
+                    <label
+                      class="col-md-12 control-label"
+                      for="message"
+                      style="color: white;"
+                      >Your message</label
+                    >
+                    <div class="col-md-12">
+                      <textarea
+                        class="form-control"
+                        id="message"
+                        name="message"
+                        placeholder="Please enter your message here..."
+                        rows="5"
+                      ></textarea>
+                    </div>
+                  </div>
+
+                  <!-- Form actions -->
+                  <div class="form-group">
+                    <div class="col-md-12 text-right">
+                      <input
+                        type="submit"
+                        class="btn btn-outline-light btn-lg"
+                        value="Send"
+                      />
+                    </div>
+                  </div>
+                </fieldset>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- End of Contact -->
+  </body>
+</html>
